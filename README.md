@@ -11,4 +11,8 @@ Lab manuals and other guides
 2. Input and Output
 3. Addition and Subtraction
 4. XCHG keyword and built in macros
+5. JMP and CMP
+6. If Else
+7. Switch Cases
+8. Loop
 ```
