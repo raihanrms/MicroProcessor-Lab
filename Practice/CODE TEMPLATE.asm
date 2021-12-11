@@ -1,6 +1,6 @@
-; IF ELSE
-; FIND OUT IF THE NUMBER IS NEGATIVE OR POSITIVE
-
+; Course - MicroProcessor Lab
+; Name: Raihan Munim
+; ID: 181400138
 
 INCLUDE 'EMU8086.INC'   ;to include built-in macro functions
 .MODEL SMALL    ;include model size (small)
