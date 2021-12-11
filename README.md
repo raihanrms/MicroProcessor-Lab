@@ -7,6 +7,8 @@ Lab manuals and other guides
 
 #### Practice
 ```text
+Code Template for easy usage
+
 1. Syntax Structure, Basic Instructions and Importing data
 2. Input and Output
 3. Addition and Subtraction
