@@ -32,11 +32,9 @@ MAIN PROC   ;int main
     MOV DL , 0AH    ; \n = 0A
     INT 21H
     MOV DL , 0DH    ; return char = 0D
-    INT 21H
-     
-    ;###################################################;
+    INT 21H  
     
-    ; PART 2 - New line and print a string                
+    ; input taken    
     MOV AH , 2
     MOV DL , NUM
     INT 21H
@@ -52,6 +50,11 @@ MAIN PROC   ;int main
     ;MOV AH , 2
     MOV DL , CHAR
     INT 21H
+     
+    ;###################################################;
+    
+    ; PART 2 - New line and print a string                
+
     
     ;NEW LINE
     MOV DL , 0AH    ; \n = 0A
@@ -59,7 +62,7 @@ MAIN PROC   ;int main
     MOV DL , 0DH    ; return char = 0D
     INT 21H
     
-    ;print message
+    ;print the string
     MOV AH , 9
     LEA DX , MSG
     INT 21H                                             
