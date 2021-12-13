@@ -16,10 +16,9 @@ Lab manuals and other guides
 7. Switch Cases
 8. Loop
 ```
-#### Class
-- Class 1
+#### Classes
 ```text
-Add two numbers
+Class 1: Add two numbers with user input
 ```
 #### Lab Reports
 ```text
