@@ -22,5 +22,5 @@ Class 1: Add two numbers with user input
 ```
 #### Lab Reports
 ```text
-1. 181400138-ADD.asm
+1. LabReport1-181400138_ADD.txt
 ```
