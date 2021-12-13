@@ -4,11 +4,9 @@
 ```text
 Lab manuals and other guides
 ```
-
 #### Practice
 ```text
-Code Template for easy usage
-
+0. Code Template for easy usage
 1. Syntax Structure, Basic Instructions and Importing data
 2. Input and Output
 3. Addition and Subtraction
@@ -17,4 +15,13 @@ Code Template for easy usage
 6. If Else
 7. Switch Cases
 8. Loop
+```
+#### Class
+- Class 1
+```text
+Add two numbers
+```
+#### Lab Reports
+```text
+1. 181400138-ADD.asm
 ```
