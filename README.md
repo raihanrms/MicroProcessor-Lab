@@ -19,8 +19,10 @@ Lab manuals and other guides
 #### Classes
 ```text
 Class 1: Add two numbers with user input
+Class 2: String And Initials input output
 ```
 #### Lab Reports
 ```text
 1. LabReport1-181400138_ADD.txt
+2. LabReport2-181400138_Printing.txt
 ```
