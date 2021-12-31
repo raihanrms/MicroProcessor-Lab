@@ -80,7 +80,7 @@ MAIN PROC   ;int main
  
        JMP END     ; if no, keep the result
  
-     GREATER:         ; if yes, replace it in alphabetical order
+     GREATER:         ; if yes, display it in a new line
         ;MOV DL, BH
         ;INT 21H
         
