@@ -13,7 +13,6 @@
     MSG2 DB "Enter 2 numbers: $"
     MSG3 DB "Question 2:$"
     MSG4 DB "Enter two capital letters: $"
-    MSG5 DB "Greater number printed from new register"
     
     VAR1 DB ?
     VAR2 DB ?

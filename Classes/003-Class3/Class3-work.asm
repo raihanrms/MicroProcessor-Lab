@@ -11,8 +11,9 @@
     MSG3 DB "Question 2:$"
     MSG4 DB "Enter two capital letters: $"
     
-    CHAR1 DB ?
-    CHAR2 DB ?                           
+    VAR1 DB ?
+    VAR2 DB ?
+    VAR3 DB ?                           
 
 .CODE           ;code segment
 
@@ -57,19 +58,16 @@ MAIN PROC   ;int main
     
     ;input is stored in 'AL' register
     MOV AH , 1
-    INT 21H
-    
+    INT 21H    
     MOV BL , AL     ;save 1st letter to BL
     
     MOV AH , 1
-    INT 21H
-    
-    
+    INT 21H    
     MOV BH , AL     ;save 2nd letter to BH
 
     MOV AH , 2
     INT 21H
-    CMP BL , BH
+    CMP BL , BH 
     
     JGE GREATER       ; checking if the char in bl is greater than bh
        MOV DL, BL
@@ -81,13 +79,6 @@ MAIN PROC   ;int main
        JMP END     ; if no, keep the result
  
      GREATER:         ; if yes, display it in a new line
-        ;MOV DL, BH
-        ;INT 21H
-        
-        ;print message     
-        MOV AH , 9
-        LEA DX , MSG4
-        INT 21H
        
         ;NEW LINE
         MOV AH , 2
@@ -95,8 +86,11 @@ MAIN PROC   ;int main
         INT 21H
         MOV DL , 0DH    ; return char = 0D
         INT 21H
-        
-        MOV DL, BL
+                    
+        MOV VAR3 , BL   ; storing the greater variable in VAR3
+        INT 21H
+                              
+        MOV DL , VAR3   ; printing the new var3 value
         INT 21H
        
      END:    
