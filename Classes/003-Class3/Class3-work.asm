@@ -155,7 +155,8 @@ MAIN PROC   ;int main
     MOV AH , 1
     INT 21H
     
-    
+        
+        
     MOV BH , AL     ;save 2nd letter to BH
 
     MOV AH , 2
